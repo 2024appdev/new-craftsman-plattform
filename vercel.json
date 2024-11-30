@@ -12,7 +12,10 @@
 	"scripts": {
 	  "preinstall": "echo 'Skipping preinstall on Vercel'",
 	  "postinstall": "npm install canvas@next"
-	}
+	},
+	"engines": {
+		  "node": "18.x"
+	      	}
   }
   
   
