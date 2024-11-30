@@ -10,8 +10,9 @@
 	  }
 	],
 	"scripts": {
-	  "preinstall": "apt-get update && apt-get install -y libpixman-1-dev libcairo2-dev || true",
-	  "postinstall": "npm rebuild canvas"
+	  "preinstall": "echo 'Skipping preinstall on Vercel'",
+	  "postinstall": "npm install canvas@next"
 	}
   }
+  
   
