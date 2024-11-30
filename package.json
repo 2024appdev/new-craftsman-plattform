@@ -10,8 +10,7 @@
 		"getFiles": "node constants/CraftsmanNearMeSiteMaps/getFileNames",
 		"build": "next build",
 		"sitemap": "next-sitemap",
-		"lint": "next lint",
-         "install": "apt-get install -y libcairo2-dev libjpeg-dev libpng-dev libgif-dev && npm install"
+		"lint": "next lint"
 
 
 	},
